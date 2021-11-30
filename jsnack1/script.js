@@ -11,12 +11,21 @@ console.log(surnames);
 // let randSurnames = surnames[Math.floor(Math.random() * surnames.length)];
 // console.log(randSurnames);
 
+let list = [];
+console.log(list);
+
 for (let index = 0; index < names.length; index++) {
     let randNames = names[Math.floor(Math.random() * names.length)];
 
     let randSurnames = surnames[Math.floor(Math.random() * surnames.length)];
 
-    console.log(randNames);
-    console.log(randSurnames);
+    // console.log(randNames);
+    // console.log(randSurnames);
     
+    let guest = randNames + ` ` + randSurnames;
+    console.log(guest);
+
+    list.push (guest);
 }
+
+
